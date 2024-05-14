@@ -8,8 +8,8 @@ using System;
 public class cameraCapture : MonoBehaviour
 {
     private WebCamTexture webcamTexture;
-        public RawImage webcamPreview;
-            public Text countdownText; 
+    public RawImage webcamPreview;
+    public Text countdownText; 
 
     private int imageCounter = 1;
 
@@ -45,7 +45,8 @@ public class cameraCapture : MonoBehaviour
             yield return null;
         }
     
-        CaptureImage();    
+        GetComponent<AudioSource>().Play();
+        CaptureImage();
         remainingTime = countdownTime;
         countdownText.text = remainingTime.ToString();
     }
@@ -84,7 +85,7 @@ public class cameraCapture : MonoBehaviour
         return fullFilePath;
     }
 
-       void Analyze(string path)
+       private void Analyze(string path)
     {
         GetComponent<CallPythonScript>().CallScript(path);
     }
