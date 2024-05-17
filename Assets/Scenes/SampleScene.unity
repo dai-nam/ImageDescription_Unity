@@ -261,15 +261,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68fb8f82ade6af24a9abd6a8dad5500b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  imagePath: C:\Users\kopro\Desktop\Test_Jihye\Test_jihye\Assets\frau.jpg
+  imagePath: C:\Users\kopro\Documents\_Projekte\Unity\ImageRecognition_Unity\Assets\frau.jpg
   prompt: "Beschreibe welche Kleidung die Person auf dem Bild tr\xE4gt. Die Beschreibung
     soll ausschlie\xDFlich anhand folgender Kategorien erfolgen: Kopfbedeckung, Oberteil,
     Hose, Schuhe. Nimm das, was am ehesten dem entspricht.\nDer Output soll wiefolgt
     aussehen: Kopfbedeckung: a, Oberteil: b, Hose: c, Schuhe: F\xFCr die Kategorien
-    gibt es ausschlie\xDFlich folgende Auswahl. F\xFCge ncihts eigenes hinzu: Kopfbedeckung:
+    gibt es ausschlie\xDFlich folgende Auswahl. F\xFCge nichts eigenes hinzu: Kopfbedeckung:
     Hut, Kappe, Beanie, ohne, nicht sichtbar. Oberteil: T-Shirt, Pullover, Hoodie,
     Hemd,  Longsleeve, Kleid, ohne, nicht sichtbar. Hose: Kleid, Shorts, Rock, Jeans,
-    lange Hose, ohne, niocht sichtbar. Schuhe: Sneaker, Absatzschuhe, Anzugschuhe,
+    lange Hose, ohne, nicht sichtbar. Schuhe: Sneaker, Absatzschuhe, Anzugschuhe,
     Stiefel, Sandalen, ohne, nicht sichtbar. Wenn das Bild keine Person zeigt,  du
     nichts erkennst oder ein anderer Fehler auftritt, gib \"N/A/\" aus."
 --- !u!114 &406327337
